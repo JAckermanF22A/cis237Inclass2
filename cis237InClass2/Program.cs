@@ -10,6 +10,9 @@ namespace cis237InClass2
     {
         static void Main(string[] args)
         {
+            Factorial factorial = new Factorial();
+
+            Console.WriteLine("The answer to 5! is: " + factorial.Calculate(5));
         }
     }
 }
